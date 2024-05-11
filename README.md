@@ -1,2 +1,2 @@
 # DS1305-Mega2560-Driver
-Simple DS1305 driver for the Mega2560
+A simple implementation of a DS1305 RTC driver in C++ for the Mega2560. The driver uses SPI to communicate with the DS1305. It is important that the DS1305 is configured to SPI in hardware. This is a part of a semester project on the 2. semester of the Bachelor of Engineering in Software Technology at Aarhus University. See DS1305_tester.cpp for an example of how to use the DS1305 driver. The implementation is pretty bare bones in its current state, and doesn't implemnt any of the alarm capabilites of the DS1305 RTC. It should work fine for other MCU's if the SPI driver is adjusted or a new driver written.
