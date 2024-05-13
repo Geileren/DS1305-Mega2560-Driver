@@ -30,7 +30,7 @@ int main(void)
 	uint8_t a[7], b[7];
 	// Loading a new time on the DS1305. The format is a follows:
 	// s = 25, m = 31, h = 14, weekday = 6 (Saturday), calender_day=11, month=5, year=24
-	// 24-5-11 14:31:25 on a saturday
+	// 11-5-(20)24 14:31:25 on a saturday
 	b[0]=25;b[1]=31;b[2]=14;b[3]=3;b[4]=11;b[5]=5;b[6]=24;
 	rtc.LoadNewTime(b);
     while (1) 
