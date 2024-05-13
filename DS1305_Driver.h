@@ -10,8 +10,8 @@
 class DS1305_Driver{
 	public:
 		void Init_DS1305();
-		uint8_t ReadFromAddress(uint8_t adress);
-		void WriteToAddress(uint8_t adress, uint8_t dataByte);
+		uint8_t ReadFromAddress(uint8_t address);
+		void WriteToAddress(uint8_t address, uint8_t dataByte);
 		void ReadAllTimeData(uint8_t *time);
 		void LoadNewTime(uint8_t *time);
 		
